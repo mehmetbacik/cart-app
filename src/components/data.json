@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "name": "Ürün 1",
+        "category": "Kategori 1",
+        "inStock": true,
+        "firstPrice": 270,
+        "lastPrice": 186,
+        "star": 4,
+        "img" : "https://via.placeholder.com/350x500"
+
+    },
+    {
+        "id": 2,
+        "name": "Ürün 2",
+        "category": "Kategori 4",
+        "inStock": true,
+        "firstPrice": 370,
+        "lastPrice": 286,
+        "star": 4,
+        "img" : "https://via.placeholder.com/350x500"
+
+    },
+    {
+        "id": 3,
+        "name": "Ürün 3",
+        "category": "Kategori 3",
+        "inStock": true,
+        "firstPrice": 570,
+        "lastPrice": 486,
+        "star": 3.1,
+        "img" : "https://via.placeholder.com/350x500"
+
+    },
+    {
+        "id": 4,
+        "name": "Ürün 4",
+        "category": "Kategori 1",
+        "inStock": true,
+        "firstPrice": 70,
+        "lastPrice": 56,
+        "star": 4.1,
+        "img" : "https://via.placeholder.com/350x500"
+
+    },
+    {
+        "id": 5,
+        "name": "Ürün 5",
+        "category": "Kategori 4",
+        "inStock": false,
+        "firstPrice": 1270,
+        "lastPrice": 1186,
+        "star": 5,
+        "img" : "https://via.placeholder.com/350x500"
+
+    },
+    {
+        "id": 6,
+        "name": "Ürün 6",
+        "category": "Kategori 6",
+        "inStock": true,
+        "firstPrice": 170,
+        "lastPrice": 86,
+        "star": 3.2,
+        "img" : "https://via.placeholder.com/350x500"
+
+    }
+
+]

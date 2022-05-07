@@ -1,0 +1,175 @@
+:root {
+    --color-one: #ff754c;
+    --color-two: #000000;
+    --color-three: #ffffff;
+    --color-four: #efefef;
+    --color-five: #cccccc;
+}
+
+#cardpage #left .card {
+    border: 0;
+}
+
+#cardpage #left .card .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#cardpage #left .card .n-rounded {
+    border-radius: 15px !important;
+}
+
+#cardpage #left .card .card-body .btn-dark {
+    background-color: var(--color-two);
+    border-color: var(--color-two);
+    color: var(--color-three);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#cardpage #left .card .card-body .btn-danger {
+    background-color: var(--color-one);
+    border-color: var(--color-one);
+    color: var(--color-two);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#cardpage #left .card .card-body .btn-danger:hover {
+    background-color: var(--color-two);
+    border-color: var(--color-tow);
+    color: var(--color-three);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#cardpage #left .card .card-body .star-area {
+    color: var(--color-one);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#cardpage .star-area > img {
+    margin-right: 8px;
+}
+
+#cardpage #left .card .card-body .productprice .currentprice {
+    color: var(--color-two);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+    line-height: normal;
+}
+
+#cardpage #left .card .card-body .productprice .discountprice {
+    color: var(--color-five);
+    font-weight: 700;
+    text-decoration: line-through;
+    font-size: 1rem;
+    line-height: normal;
+}
+
+#cardpage #left .card .card-img {
+    max-height: 295px;
+    object-fit: cover;
+}
+
+#cardpage #right .card {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#cardpage #right .card .card-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+#cardpage #right .productcard .title {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-bottom: 8px;
+}
+
+#cardpage #right .productcard .price {
+    background: var(--color-four);
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#cardpage #right .productcard {
+    margin-bottom: 15px;
+}
+
+#cardpage #right .subtotal {
+    margin-bottom: 8px;
+}
+
+#cardpage #right .subtotal .title {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+#cardpage #right .subtotal .price {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#cardpage #right .vat {
+    margin-bottom: 8px;
+}
+
+#cardpage #right .vat .title {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+#cardpage #right .vat .price {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+#cardpage #right .totalprice {
+    border: solid 1px var(--color-two);
+    border-radius: 11px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+#cardpage #right .card .card-body .btn-danger {
+    background-color: var(--color-one);
+    border-color: var(--color-one);
+    color: var(--color-two);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+#cardpage #right .card .card-body .btn-danger:hover {
+    background-color: var(--color-two);
+    border-color: var(--color-tow);
+    color: var(--color-three);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 1300px) {
+    #cardpage .col-lg-2-5 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #cardpage #left .card .card-body .star-area img {
+        transform: scale(.8);
+    }
+
+    #cardpage #left .card .card-body .star-area, #cardpage #left .card .card-body .productprice .currentprice, #cardpage #left .card .card-body .productprice .discountprice {
+        font-size: .9rem;
+    }
+}
