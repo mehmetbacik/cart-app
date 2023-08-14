@@ -38,8 +38,8 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+---
+
 You can explore the live demo version of the project [here](https://cart-app-kappa.vercel.app/).
 
 GitHub Repository: [https://github.com/mehmetbacik/cart-app](https://github.com/mehmetbacik/cart-app)
-
----
